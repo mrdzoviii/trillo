@@ -393,7 +393,7 @@
       background-image: url(../img/chevron-thin-right.svg);
       background-size: cover;
 
-      @supports (-webkit-mask-image: url(../img/chevron-thin-right.svg)),
+      @supports (-webkit-mask-image: url(../img/chevron-thin-right.svg)) or
       (mask-image: url(../img/chevron-thin-right.svg)) {
       background-color: var(--color-primary);
       -webkit-mask-image: url(../img/chevron-thin-right.svg);
